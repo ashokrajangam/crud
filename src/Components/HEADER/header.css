@@ -1,0 +1,29 @@
+.header_container {
+    width: 100%;
+    background-color: sandybrown;
+    height: 100px;
+    margin:0;
+    padding:10px;
+    box-sizing: border-box;
+    border-bottom: 1px solid white;
+}
+
+.link_area {
+    float: right;
+    width:40%;
+    height:30px;
+    margin:0;
+}
+
+.link_area a{
+    text-decoration: none;
+    border: 1px solid white;
+    margin: 5px;
+    padding: 3px;
+    color: white;    
+}
+
+.link_area a:hover{
+    background-color:white;
+    color: black;
+}
