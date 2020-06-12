@@ -1,0 +1,56 @@
+
+.list_table{
+    width:80%;
+    margin: auto;
+    border-spacing: 0px;
+}
+
+.list_head{
+    height:50px;
+}
+
+.list_data{
+    text-align:center;
+}
+
+.list_head, .list_data{
+    height:30px;
+    vertical-align: bottom;
+    padding: 5px;    
+    border-bottom: 1px solid #fb9358;
+}
+
+#edit_button{
+    background-color: white;
+    border:1px solid green;
+    color:black;
+    padding:5px 15px;
+    text-align:center;
+    font-size:13px;
+    margin-right: 5px;
+}
+
+#delete_button{
+    background-color: white;
+    border:1px solid red;
+    color:black;
+    padding:5px 15px;
+    text-align:center;
+    font-size:13px;
+}
+
+#delete_button:hover{
+    background-color: salmon;
+    color:white;
+    border:1px solid white;
+}
+
+#edit_button:hover{
+    background-color: lightgreen;
+    color:white;
+    border:1px solid white;
+}
+
+button{
+    transition-duration: 0.4s;
+}
