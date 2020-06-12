@@ -6,18 +6,20 @@
     padding:10px;
     box-sizing: border-box;
     border-bottom: 1px solid white;
+    position: relative;
 }
 
 .link_area {
-    float: right;
-    width:40%;
-    height:30px;
-    margin:0;
+    display: inline-block;
+    padding: 10px;
+    position: absolute;
+    right: 30px; 
+    bottom: 0px;
 }
 
 .link_area a{
     text-decoration: none;
-    border: 1px solid white;
+    font-size: 25px;
     margin: 5px;
     padding: 3px;
     color: white;    
@@ -26,4 +28,13 @@
 .link_area a:hover{
     background-color:white;
     color: black;
+}
+
+a{
+    transition-duration: 0.4s;
+}
+
+a:active {
+    background-color:white;
+    color: black;  
 }
