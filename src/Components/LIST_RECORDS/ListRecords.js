@@ -21,7 +21,7 @@ class ListRecords extends React.Component{
                 <tbody>
                     {this.props.list_data.map((record)=>{
                         return (
-                            <tr key={record.id}>
+                            <tr key={record.id} className="list_row">
                                 <td className='list_data'>{record.name}</td>
                                 <td className='list_data'>{record.mobile}</td>
                                 <td className='list_data'>{record.course}</td>

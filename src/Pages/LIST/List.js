@@ -57,11 +57,12 @@ class List extends React.Component {
     }
 
     delete_record = (e) => {
-        console.log(e.target.value);
         this.service.deleteRecord(e.target.value).then(response=>{
             console.log(response);
             if(response===1){
-                this.forceUpdate();
+                this.service.getListData(this.state).then(response=>{
+                    this.setState({data:response});
+                }); 
             }
         }); 
     }
